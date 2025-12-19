@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-var=$(sha256sum  -c $2) | echo $var
+sha256sum "$1" > check.txt;sha256sum -c check.txt
