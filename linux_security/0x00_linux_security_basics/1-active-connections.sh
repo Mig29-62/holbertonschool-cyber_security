@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ss -t 
+sudo ss -t -p 
