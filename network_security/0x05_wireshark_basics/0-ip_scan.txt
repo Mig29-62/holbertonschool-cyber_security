@@ -1,2 +1,1 @@
-515	46.506373180	10.42.157.174	10.8.0.196	ICMP	28	Echo (ping) reply    id=0xc854, seq=0/0, ttl=126 (request in 514)
-ip.proto == 1
+515	46.506373180	10.42.157.174	10.8.0.196	ICMP	28	Echo (ping) reply    id=0xc854, seq=0/0, ttl=126 (request in 514) ip.proto == 1
