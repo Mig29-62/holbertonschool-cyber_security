@@ -1,0 +1,1 @@
+icmp.type == 0 371	36.136469438	10.42.117.144	10.8.0.196	ICMP	28	Echo (ping) reply    id=0x4fbc, seq=0/0, ttl=126 (request in 362)
