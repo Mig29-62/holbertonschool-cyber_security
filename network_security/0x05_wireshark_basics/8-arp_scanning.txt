@@ -1,1 +1,1 @@
-arp.opcode == 1 or arp.opcode == 2 arp.dst.hw_mac == 00:50:56:c0:00:08 7	5.730204351	VMware_c0:00:08	Broadcast	ARP	60	Who has 192.168.218.2? Tell 192.168.218.1
+arp.opcode == 1 or arp.opcode == 2 arp.dst.hw_mac == 00:00:00:00:00:00 7	5.730204351	VMware_c0:00:08	Broadcast	ARP	60	Who has 192.168.218.2? Tell 192.168.218.1
