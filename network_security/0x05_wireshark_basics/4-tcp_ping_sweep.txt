@@ -1,0 +1,1 @@
+(tcp.flags.syn == 1 and tcp.flags.ack == 0) or (tcp.flags.ack == 1 and tcp.flags.ack == 0) 891	829.418630858	10.8.0.196	10.42.117.144	TCP	60	55428 → 1720 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=3802934017 TSecr=0 WS=1024
