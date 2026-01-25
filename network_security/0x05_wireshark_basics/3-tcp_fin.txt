@@ -1,0 +1,1 @@
+tcp.flags.fin == 1 && tcp.flags.syn == 0 && tcp.flags.ack == 0 9	13.012773594	10.8.0.196	10.42.117.144	TCP	40	47440 → 995 [FIN] Seq=1 Win=1024 Len=0
