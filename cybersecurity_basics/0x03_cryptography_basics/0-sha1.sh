@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $1 | sha1sum | cat>0_hash.txt | sed 's/-//g' 0_hash.txt
+echo -n '$1'| sha1sum |cut -d ' ' -f 1| cat > 0_hash.txt 
