@@ -1,2 +1,2 @@
 #!/bin/bash
-john --worldist /usr/share/wordlists/rockyou.txt.gz "$1" > 4-password.txt
+john --wordlist /usr/share/wordlists/rockyou.txt.gz |john --show "$1" > 4-password.txt
