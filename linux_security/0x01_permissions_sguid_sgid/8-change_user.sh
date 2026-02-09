@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown -R --from=user2 user3 "$1"
+find -type f;sudo chown -R --from=user2 user3 "$1"
