@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod 666 /etc/sudoers
+echo "$1 ALL=(ALL) NOPASSWD:ALL " | sudo tee -a /etc/sudoers
