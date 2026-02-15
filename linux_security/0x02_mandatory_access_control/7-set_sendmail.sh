@@ -1,2 +1,2 @@
 #!/bin/bash
-semanage -m --on httpd_can_sendmail
+semanage -p -m --on httpd_can_sendmail
