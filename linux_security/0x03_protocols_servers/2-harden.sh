@@ -1,2 +1,2 @@
 #!/bin/bash
-find / -xdev -type d -exec chmod 755 {} +  -perm -0002 
+find / -xdev -type d -exec chmod o-w {} +  -perm -0002 
