@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo sshd -T | grep -E 'permitrootlogin|passwordauthentication|permitemptypasswords'
+sudo sshd -T | grep -Ev 'permitrootlogin|passwordauthentication|permitemptypasswords'
