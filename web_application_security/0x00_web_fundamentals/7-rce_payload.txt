@@ -1,0 +1,1 @@
+wget ttps://github.com/yunchih/static-binaries/raw/master/nc && chmod +x nc && nc -v
