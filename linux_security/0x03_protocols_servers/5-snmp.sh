@@ -1,2 +1,2 @@
 #!/bin/bash
-snmpget -v 2c -c public "$1" 1.3.6.1.2.1.1.1.0 2>/dev/null
+grep -E "public" /etc/snmp/snmpd.conf | grep -v "^#"
