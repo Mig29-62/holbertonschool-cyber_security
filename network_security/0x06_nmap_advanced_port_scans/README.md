@@ -4,4 +4,5 @@ in this task we use -sN option to send NULL packets.by using -p 20-25 we enumera
 in this task i used option -sF to send fin packets,-f to fragment and -T2 to reduce scan detectability
 --TASK 2--
 for task 2 i used -sX for Xmas scanning,--reason for specification of reasons,--packet-trace to show all packets
-
+--TASK 3--
+-sM is used for maimon scan,also in this task you must mark all ports not with numbers,but with names.-vvv for max verbosity
