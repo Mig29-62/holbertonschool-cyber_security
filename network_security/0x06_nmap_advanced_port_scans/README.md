@@ -8,3 +8,5 @@ for task 2 i used -sX for Xmas scanning,--reason for specification of reasons,--
 -sM is used for maimon scan,also in this task you must mark all ports not with numbers,but with names.-vvv for max verbosity
 --TASK 4--
 -sA is used for sending ACK flags,and --host-timeout is used for allocating max response time from one host
+--TASK 5--
+i used -sW option to window scan and --exclude-ports to exclude specified ports
