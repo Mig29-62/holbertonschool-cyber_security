@@ -6,3 +6,5 @@ in this task i used option -sF to send fin packets,-f to fragment and -T2 to red
 for task 2 i used -sX for Xmas scanning,--reason for specification of reasons,--packet-trace to show all packets
 --TASK 3--
 -sM is used for maimon scan,also in this task you must mark all ports not with numbers,but with names.-vvv for max verbosity
+--TASK 4--
+-sA is used for sending ACK flags,and --host-timeout is used for allocating max response time from one host
