@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -p $2 -scanflags -oN custom_scan.txt URGACKPSHRSTSYNFIN $1
+nmap -scanflags URGACKPSHRSTSYNFIN -p $2 -oN custom_scan.txt $1 > /dev/null 2>&1
