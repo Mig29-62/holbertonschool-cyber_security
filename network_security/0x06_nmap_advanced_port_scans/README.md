@@ -10,3 +10,5 @@ for task 2 i used -sX for Xmas scanning,--reason for specification of reasons,--
 -sA is used for sending ACK flags,and --host-timeout is used for allocating max response time from one host
 --TASK 5--
 i used -sW option to window scan and --exclude-ports to exclude specified ports
+--TASK 6--
+used --scanflags to scan for all possible flags,and then redirected standart output and error
