@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""in this module,we use pid to find process then encode find_str and replace it with encoded version of replace_str"""
+"""find  process by pid and find and replace"""
 import os
 import sys
-import sys
+
 
 def yaddas_pozan(pid, find_str, replace_str=""):
-    find_b = find_str.encode()
-    # Fill replacement with nulls to match target length
+
+find_b = find_str.encode()
     replace_b = replace_str.encode().ljust(len(find_b), b'\x00')
     with open(f"/proc/{pid}/maps", 'r') as maps:
         for line in maps:
