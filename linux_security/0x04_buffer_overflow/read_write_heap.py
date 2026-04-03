@@ -27,4 +27,4 @@ def yaddas_pozan(pid, find_str, replace_str=""):
 
 
 if __name__ == "__main__":
-    yaddas_pozan(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "") # noqa:E501
+    yaddas_pozan(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "")  # noqa:E501
