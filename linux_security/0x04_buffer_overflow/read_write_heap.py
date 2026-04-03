@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""in this module,we use pid to find process then encode find_str and replace it with encoded version of replace_str"""
 import os
 
 def yaddas_pozan(pid, find_str, replace_str):
