@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 
 def yaddas_pozan(pid, find_str, replace_str):
