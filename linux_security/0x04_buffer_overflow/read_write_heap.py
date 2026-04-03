@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""find  process by pid and find and replace"""
+"""find  process by pid,
+encode given find_str,
+also encode given replace_str,
+using /proc find working processes
+replace strings"""
 import os
 import sys
 
