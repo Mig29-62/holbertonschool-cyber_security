@@ -10,7 +10,7 @@ import sys
 
 def yaddas_pozan(pid, find_str, replace_str=""):
 
-find_b = find_str.encode()
+    find_b = find_str.encode()
     replace_b = replace_str.encode().ljust(len(find_b), b'\x00')
     with open(f"/proc/{pid}/maps", 'r') as maps:
         for line in maps:
