@@ -25,5 +25,6 @@ def yaddas_pozan(pid, find_str, replace_str=""):
                         mem.write(replace_b)
                         idx = chunk.find(find_b, idx + 1)
 
+
 if __name__ == "__main__":
-    yaddas_pozan(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "")
+    yaddas_pozan(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "") # noqa:E501
