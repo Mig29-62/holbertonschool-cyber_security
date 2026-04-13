@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Jax"
+echo "root"
