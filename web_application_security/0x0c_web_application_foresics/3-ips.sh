@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" auth.log | uniq -c | sort -nr | awk '{print $1}'| head -n 1
+grep -o "([0-9]{1,3}\.){3}[0-9]{1,3}" auth.log |  sort -u | wc -l
