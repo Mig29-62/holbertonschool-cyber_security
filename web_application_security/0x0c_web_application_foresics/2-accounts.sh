@@ -1,1 +1,2 @@
-Jax
+#!/bin/bash
+echo "Jax"
