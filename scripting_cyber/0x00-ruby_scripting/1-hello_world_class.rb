@@ -6,5 +6,3 @@ class HelloWorld
     puts @message
   end
 end
-greeter = HelloWorld.new
-greeter.print_hello
