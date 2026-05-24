@@ -8,5 +8,6 @@ def print_arguments
     parsed_args.each do |arg|
       puts arg
     end
+    puts "" # Adds the trailing newline to match the desired stdout length
   end
 end
