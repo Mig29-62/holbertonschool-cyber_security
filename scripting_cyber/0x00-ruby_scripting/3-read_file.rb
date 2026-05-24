@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'json'
-file_content=File.read('file.json')
-data=JSON.parse(file_content)
-puts data['userId']
+
+def count_user_ids(path)
+  file_content = File.read(path)
+  data = JSON.parse(file_content)
+  puts data['userId']
 end
