@@ -1,10 +1,16 @@
 require 'net/http'
 require 'uri'
+require 'json'
 
 def get_request(url)
   uri = URI(url)
   response = Net::HTTP.get_response(uri)
   puts "Response status: #{response.code} #{response.msg.strip}"
   puts "Response body:"
-  puts response.body
+  begin
+    parsed = JSON.parse(response.body)
+    puts JSON.pretty_generate(parsed)
+  rescue
+    puts response.body
+  end
 end
