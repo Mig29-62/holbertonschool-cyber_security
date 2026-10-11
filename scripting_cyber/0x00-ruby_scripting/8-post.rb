@@ -7,8 +7,8 @@ def get_request(url)
   response = Net::HTTP.get_response(uri)
   puts "Response status: #{response.code} #{response.msg.strip}"
   puts "Response body:"
-  if response.body.strip == '{}'
-    puts '{}'
+  if response.body.strip == '{}' || response.body.strip == '[]'
+    puts response.body.strip
   else
     begin
       parsed = JSON.parse(response.body)
