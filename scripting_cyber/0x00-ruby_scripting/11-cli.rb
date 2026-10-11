@@ -4,8 +4,8 @@ require 'optparse'
 TASKS_FILE = 'tasks.txt'.freeze
 
 options = {}
-OptionParser.new do |opts|
-  opts.banner = "Usage: #{File.basename($0)} [options]"
+parser = OptionParser.new do |opts|
+  opts.banner = "Usage: cli.rb [options]"
 
   opts.on("-a", "--add TASK", "Add a new task") do |task|
     options[:add] = task
@@ -23,7 +23,10 @@ OptionParser.new do |opts|
     puts opts
     exit
   end
-end.parse!
+end
+
+parser.program_name = 'cli.rb'
+parser.parse!
 
 if options[:add]
   File.open(TASKS_FILE, 'a') { |f| f.puts(options[:add]) }
