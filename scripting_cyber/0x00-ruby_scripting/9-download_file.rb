@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'fileutils'
 
-abort "Usage: ruby #{$PROGRAM_NAME} URL LOCAL_FILE_PATH" if ARGV.length != 2
+abort "Usage: 9-download_file.rb URL LOCAL_FILE_PATH" if ARGV.length != 2
 
 url, local_path = ARGV
 
